@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 17 - Van dung 1</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f8f1f1; /* Nền màu nhẹ nhàng, lãng mạn */
+            color: #4a4a4a;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://cdn.pixabay.com/photo/2016/08/24/00/24/paris-1615336_960_720.jpg'); /* Hình nền Paris */
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        header {
+            background-color: rgba(255, 182, 193, 0.8); /* Màu hồng dịu dàng */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: 2rem;
+            font-style: italic;
+        }
+
+        .content {
+            background-color: rgba(255, 255, 255, 0.8); /* Nền trắng nhẹ, tinh tế */
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            margin: 40px auto;
+            padding: 30px;
+            width: 80%;
+            max-width: 800px;
+            text-align: justify;
+        }
+
+        .content h2 {
+            color: #ff6f61;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+        .pseudo-class-examples {
+            margin: 20px 0;
+        }
+
+        .pseudo-class-examples p {
+            font-size: 1.2rem;
+        }
+
+        .example {
+            color: #ff6347;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        .example:hover {
+            color: #ff69b4; /* Màu khi hover */
+        }
+
+        .example:active {
+            color: #ff1493; /* Màu khi đang active */
+        }
+
+        .example:focus {
+            color: #8a2be2; /* Màu khi focus */
+        }
+
+        footer {
+            background-color: rgba(255, 182, 193, 0.8);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 1rem;
+            border-top: 3px solid #f8d7da;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bai 17 - Van dung 1</h1>
+    </header>
+
+    <div class="content">
+        <h2>Tìm Hiểu Các Dạng Pseudo-Class CSS</h2>
+        <p><strong>1. :hover</strong> - Dạng pseudo-class này được kích hoạt khi người dùng di chuột qua một phần tử. Nó cho phép em áp dụng các định dạng CSS khi phần tử đang được hover.</p>
+        <p>Ví dụ: Khi di chuột qua <span class="example">liên kết này</span>, màu sắc sẽ thay đổi.</p>
+
+        <p><strong>2. :active</strong> - Dạng pseudo-class này được kích hoạt khi phần tử đang được nhấn (khi người dùng giữ chuột trái). Em có thể sử dụng nó để áp dụng các định dạng CSS khi phần tử đang ở trạng thái active.</p>
+        <p>Ví dụ: Khi người dùng nhấn vào <span class="example">nút này</span>, màu sắc sẽ chuyển sang màu khác.</p>
+
+        <p><strong>3. :focus</strong> - Dạng pseudo-class này được kích hoạt khi phần tử đang trong trạng thái focus (thường xảy ra khi người dùng click hoặc sử dụng phím tab để di chuyển đến phần tử).</p>
+        <p>Ví dụ: Khi người dùng nhấp vào ô <span class="example">input này</span>, viền của ô sẽ thay đổi màu sắc.</p>
+
+        <p><strong>4. :nth-child()</strong> - Dạng pseudo-class này cho phép bạn chọn các phần tử con trong một phần tử cha dựa trên vị trí của chúng. Bạn có thể sử dụng nó để áp dụng các định dạng CSS cho phần tử con cụ thể.</p>
+        <p>Ví dụ: Áp dụng màu nền khác cho phần tử <span class="example">nth-child</span> trong một danh sách.</p>
+    </div>
+
+
+</body>
+</html>
